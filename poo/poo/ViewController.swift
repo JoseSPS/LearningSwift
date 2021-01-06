@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var labelTitulo: UILabel!
     
-    var objetoMazda3:Mazda3?
+    var objetoMazda3Mini:Mazda3Mini?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +20,12 @@ class ViewController: UIViewController {
 
     @IBAction func crearObjeto(_ sender: UIButton) {
         print("Objeto creado")
-        objetoMazda3 = Mazda3()
+        objetoMazda3Mini = Mazda3Mini()
     }
     
     @IBAction func mostrarPropiedades(_ sender: UIButton) {
-        if objetoMazda3 != nil{
-            print("El carro Mazd 3 es de tamaño \(objetoMazda3!.tamaño), tiene \(objetoMazda3!.numeroPuertas) puertas, su color es \(objetoMazda3!.color) y su precio es de \(objetoMazda3!.precio)")
+        if objetoMazda3Mini != nil{
+            print("El carro Mazd 3 es de tamaño \(objetoMazda3Mini!.tamaño), tiene \(objetoMazda3Mini!.numeroPuertas) puertas, su color es \(objetoMazda3Mini!.color) su precio es de \(objetoMazda3Mini!.precio) y su porcentaje de carga es \(objetoMazda3Mini!.porcentajeCarga)")
         } else {
             print("No se ha creado el objeto")
         }
@@ -33,16 +33,25 @@ class ViewController: UIViewController {
     }
     
     @IBAction func encender(_ sender: UIButton) {
-        if objetoMazda3 != nil{
-            objetoMazda3!.encender()
+        if objetoMazda3Mini != nil{
+            objetoMazda3Mini!.encender()
         } else {
             print("No se ha creado el objeto")
         }
     }
     
     @IBAction func acelerar(_ sender: UIButton) {
-        if objetoMazda3 != nil{
-            objetoMazda3!.acelerar()
+        if objetoMazda3Mini != nil{
+            objetoMazda3Mini!.acelerar()
+        } else {
+            print("No se ha creado el objeto")
+        }
+    }
+    
+    
+    @IBAction func recargar(_ sender: UIButton) {
+        if objetoMazda3Mini != nil{
+            objetoMazda3Mini!.recargar()
         } else {
             print("No se ha creado el objeto")
         }

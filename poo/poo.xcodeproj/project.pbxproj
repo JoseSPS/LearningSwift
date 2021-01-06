@@ -14,6 +14,7 @@
 		937E3166259ACB2400E44339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 937E3165259ACB2400E44339 /* Assets.xcassets */; };
 		937E3169259ACB2400E44339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 937E3167259ACB2400E44339 /* LaunchScreen.storyboard */; };
 		93D1DB9A25A61653007C2A18 /* Mazda3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1DB9925A61653007C2A18 /* Mazda3.swift */; };
+		93D1DB9E25A61C87007C2A18 /* Mazda3Mini.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D1DB9D25A61C87007C2A18 /* Mazda3Mini.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		937E3168259ACB2400E44339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		937E316A259ACB2400E44339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93D1DB9925A61653007C2A18 /* Mazda3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda3.swift; sourceTree = "<group>"; };
+		93D1DB9D25A61C87007C2A18 /* Mazda3Mini.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mazda3Mini.swift; sourceTree = "<group>"; };
 		93DD427B25A51E4000A381FB /* MyPlaygroundPoo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlaygroundPoo.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -63,6 +65,7 @@
 				937E315E259ACB1A00E44339 /* SceneDelegate.swift */,
 				937E3160259ACB1A00E44339 /* ViewController.swift */,
 				93D1DB9925A61653007C2A18 /* Mazda3.swift */,
+				93D1DB9D25A61C87007C2A18 /* Mazda3Mini.swift */,
 				93DD427B25A51E4000A381FB /* MyPlaygroundPoo.playground */,
 				937E3162259ACB1A00E44339 /* Main.storyboard */,
 				937E3165259ACB2400E44339 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				937E3161259ACB1A00E44339 /* ViewController.swift in Sources */,
 				937E315D259ACB1A00E44339 /* AppDelegate.swift in Sources */,
 				937E315F259ACB1A00E44339 /* SceneDelegate.swift in Sources */,
+				93D1DB9E25A61C87007C2A18 /* Mazda3Mini.swift in Sources */,
 				93D1DB9A25A61653007C2A18 /* Mazda3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
